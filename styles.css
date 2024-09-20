@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  word-spacing: 1px;
+  width: 100%;
+  height: 15px;
+  table-layout: fixed;
+}
+
+td {
+  padding: 1px;
+}
+
+#center-aligned {
+  text-align: center;
+}
+
+#t-image {
+  text-align: center;
+}
+
+#bg-green {
+  background-color: green;
+}
+
+#bg-blue {
+  background-color: blue;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
